@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_52a59a9197238e1991f05df5e91b8a05 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_52a59a9197238e1991f05df5e91b8a05" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_52a59a9197238e1991f05df5e91b8a05 = L.map(
+                "map_52a59a9197238e1991f05df5e91b8a05",
+                {
+                    center: [20.0, 10.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_adb6ca48597128972e2cf172dda6f0da = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_52a59a9197238e1991f05df5e91b8a05);
+        
+    
+            var marker_1210d31063fdc0cbb16c0ccbd89cea34 = L.marker(
+                [-3.4653, -62.2159],
+                {}
+            ).addTo(map_52a59a9197238e1991f05df5e91b8a05);
+        
+    
+            var icon_a09a3f0ad99db1c4b1b257b2843d5402 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1210d31063fdc0cbb16c0ccbd89cea34.setIcon(icon_a09a3f0ad99db1c4b1b257b2843d5402);
+        
+    
+        var popup_7064cdb7fc23d77819bef15b850273a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abc5f4d6ee173e99e9b57dd950542b07 = $(`<div id="html_abc5f4d6ee173e99e9b57dd950542b07" style="width: 100.0%; height: 100.0%;"><b>Амазонка</b><br>Най-голямата река по дебит.</div>`)[0];
+            popup_7064cdb7fc23d77819bef15b850273a9.setContent(html_abc5f4d6ee173e99e9b57dd950542b07);
+        
+
+        marker_1210d31063fdc0cbb16c0ccbd89cea34.bindPopup(popup_7064cdb7fc23d77819bef15b850273a9)
+        ;
+
+        
+    
+    
+            var marker_d605ffa7d5e21491e3785cf309192734 = L.marker(
+                [15.5, 32.5],
+                {}
+            ).addTo(map_52a59a9197238e1991f05df5e91b8a05);
+        
+    
+            var icon_9a797b885fa2eecab042a1ab49f5ed4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d605ffa7d5e21491e3785cf309192734.setIcon(icon_9a797b885fa2eecab042a1ab49f5ed4f);
+        
+    
+        var popup_721ff98c1586d2a169fbd5b5aba0a57f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_176527bd975c7123c3c3a67851d380b9 = $(`<div id="html_176527bd975c7123c3c3a67851d380b9" style="width: 100.0%; height: 100.0%;"><b>Нил</b><br>Най-дългата река в света.</div>`)[0];
+            popup_721ff98c1586d2a169fbd5b5aba0a57f.setContent(html_176527bd975c7123c3c3a67851d380b9);
+        
+
+        marker_d605ffa7d5e21491e3785cf309192734.bindPopup(popup_721ff98c1586d2a169fbd5b5aba0a57f)
+        ;
+
+        
+    
+    
+            var marker_6c60686d7a73c714e16cfed81ef9a5b0 = L.marker(
+                [45.4642, 20.5896],
+                {}
+            ).addTo(map_52a59a9197238e1991f05df5e91b8a05);
+        
+    
+            var icon_db6b06dc64887e107a1d02143938aab8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6c60686d7a73c714e16cfed81ef9a5b0.setIcon(icon_db6b06dc64887e107a1d02143938aab8);
+        
+    
+        var popup_608254ad7fcdd8e9e41b35cabe05b07c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae5315175ce93b20331c2db39b598065 = $(`<div id="html_ae5315175ce93b20331c2db39b598065" style="width: 100.0%; height: 100.0%;"><b>Дунав</b><br>Пресича 10 държави в Европа.</div>`)[0];
+            popup_608254ad7fcdd8e9e41b35cabe05b07c.setContent(html_ae5315175ce93b20331c2db39b598065);
+        
+
+        marker_6c60686d7a73c714e16cfed81ef9a5b0.bindPopup(popup_608254ad7fcdd8e9e41b35cabe05b07c)
+        ;
+
+        
+    
+    
+            var marker_1b9c6dfa1a6a7550cee301df1202d8f8 = L.marker(
+                [36.1069, -112.1129],
+                {}
+            ).addTo(map_52a59a9197238e1991f05df5e91b8a05);
+        
+    
+            var icon_6d65c8087e5f5ef6931c2e9b96c0d570 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1b9c6dfa1a6a7550cee301df1202d8f8.setIcon(icon_6d65c8087e5f5ef6931c2e9b96c0d570);
+        
+    
+        var popup_7f10f7d56ace6648f4c63974e160a4b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a44ee1a333ea32e0b7935fe6f815b270 = $(`<div id="html_a44ee1a333ea32e0b7935fe6f815b270" style="width: 100.0%; height: 100.0%;"><b>Колорадо</b><br>Издълбала Гранд Каньон.</div>`)[0];
+            popup_7f10f7d56ace6648f4c63974e160a4b3.setContent(html_a44ee1a333ea32e0b7935fe6f815b270);
+        
+
+        marker_1b9c6dfa1a6a7550cee301df1202d8f8.bindPopup(popup_7f10f7d56ace6648f4c63974e160a4b3)
+        ;
+
+        
+    
+    
+            var marker_defecd28e902cb285bc2dbddf97cc81e = L.marker(
+                [25.4358, 81.8463],
+                {}
+            ).addTo(map_52a59a9197238e1991f05df5e91b8a05);
+        
+    
+            var icon_9ae86cf0f59d9b8a4fe3802fd3ce8c46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_defecd28e902cb285bc2dbddf97cc81e.setIcon(icon_9ae86cf0f59d9b8a4fe3802fd3ce8c46);
+        
+    
+        var popup_e278229f9abf8fd4da5a4a1036d746ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f6dd9fc8e5a6d0736055d29177520d4 = $(`<div id="html_0f6dd9fc8e5a6d0736055d29177520d4" style="width: 100.0%; height: 100.0%;"><b>Ганг</b><br>Свещена река в Индия.</div>`)[0];
+            popup_e278229f9abf8fd4da5a4a1036d746ab.setContent(html_0f6dd9fc8e5a6d0736055d29177520d4);
+        
+
+        marker_defecd28e902cb285bc2dbddf97cc81e.bindPopup(popup_e278229f9abf8fd4da5a4a1036d746ab)
+        ;
+
+        
+    
+    
+            var marker_623a9caf0a716b6b8610315c5fe66f9f = L.marker(
+                [53.5587, 108.165],
+                {}
+            ).addTo(map_52a59a9197238e1991f05df5e91b8a05);
+        
+    
+            var icon_cac6257e28ac0c7550e3bbc2e5d71053 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_623a9caf0a716b6b8610315c5fe66f9f.setIcon(icon_cac6257e28ac0c7550e3bbc2e5d71053);
+        
+    
+        var popup_cf855ed9be780ac57647aef63da9df04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_262a0e3c8df485dba75c768686385714 = $(`<div id="html_262a0e3c8df485dba75c768686385714" style="width: 100.0%; height: 100.0%;"><b>Байкал</b><br>Най-дълбокото сладководно езеро.</div>`)[0];
+            popup_cf855ed9be780ac57647aef63da9df04.setContent(html_262a0e3c8df485dba75c768686385714);
+        
+
+        marker_623a9caf0a716b6b8610315c5fe66f9f.bindPopup(popup_cf855ed9be780ac57647aef63da9df04)
+        ;
+
+        
+    
+    
+            var marker_d1f0a82a09c58bff717abe11952c1aba = L.marker(
+                [44.8806, 15.6169],
+                {}
+            ).addTo(map_52a59a9197238e1991f05df5e91b8a05);
+        
+    
+            var icon_5e0bdb7363adb2ae5a1a2b4f84343804 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d1f0a82a09c58bff717abe11952c1aba.setIcon(icon_5e0bdb7363adb2ae5a1a2b4f84343804);
+        
+    
+        var popup_bb1796676e779db2b59fbd71e0b868dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3bc4557b280e9bba24ef1c7c70afc7c = $(`<div id="html_c3bc4557b280e9bba24ef1c7c70afc7c" style="width: 100.0%; height: 100.0%;"><b>Плитвички езера</b><br>Система от 16 езера с водопади.</div>`)[0];
+            popup_bb1796676e779db2b59fbd71e0b868dd.setContent(html_c3bc4557b280e9bba24ef1c7c70afc7c);
+        
+
+        marker_d1f0a82a09c58bff717abe11952c1aba.bindPopup(popup_bb1796676e779db2b59fbd71e0b868dd)
+        ;
+
+        
+    
+    
+            var marker_3d0e94a128c8e78dc0511afb3465e3be = L.marker(
+                [-15.7654, -69.5359],
+                {}
+            ).addTo(map_52a59a9197238e1991f05df5e91b8a05);
+        
+    
+            var icon_817a67b5c7fe0251b4ab64afd3b92a65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3d0e94a128c8e78dc0511afb3465e3be.setIcon(icon_817a67b5c7fe0251b4ab64afd3b92a65);
+        
+    
+        var popup_94b7d5c701d7cf6a7b77e6cc3c5dd6fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75c3874eaca8c484440dfe3718052fc4 = $(`<div id="html_75c3874eaca8c484440dfe3718052fc4" style="width: 100.0%; height: 100.0%;"><b>Титикака</b><br>Най-високото плавателно езеро.</div>`)[0];
+            popup_94b7d5c701d7cf6a7b77e6cc3c5dd6fe.setContent(html_75c3874eaca8c484440dfe3718052fc4);
+        
+
+        marker_3d0e94a128c8e78dc0511afb3465e3be.bindPopup(popup_94b7d5c701d7cf6a7b77e6cc3c5dd6fe)
+        ;
+
+        
+    
+    
+            var marker_2fcaa753ba092e90bd1a7e66f2bea467 = L.marker(
+                [51.4254, -116.1773],
+                {}
+            ).addTo(map_52a59a9197238e1991f05df5e91b8a05);
+        
+    
+            var icon_29f18b9485c06f4e7341bb7acbd43e4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2fcaa753ba092e90bd1a7e66f2bea467.setIcon(icon_29f18b9485c06f4e7341bb7acbd43e4f);
+        
+    
+        var popup_9db8abe94fc611ff221d8f94f5fdbef6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02b454f59b59e9989120c90098c90d68 = $(`<div id="html_02b454f59b59e9989120c90098c90d68" style="width: 100.0%; height: 100.0%;"><b>Луиз</b><br>Ледниково езеро с тюркоазен цвят.</div>`)[0];
+            popup_9db8abe94fc611ff221d8f94f5fdbef6.setContent(html_02b454f59b59e9989120c90098c90d68);
+        
+
+        marker_2fcaa753ba092e90bd1a7e66f2bea467.bindPopup(popup_9db8abe94fc611ff221d8f94f5fdbef6)
+        ;
+
+        
+    
+    
+            var marker_ed46e7f0ab22d2302671393af7d6406a = L.marker(
+                [-1.0, 33.0],
+                {}
+            ).addTo(map_52a59a9197238e1991f05df5e91b8a05);
+        
+    
+            var icon_6d3f450b33f7452f3ea0b3c463877dc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ed46e7f0ab22d2302671393af7d6406a.setIcon(icon_6d3f450b33f7452f3ea0b3c463877dc9);
+        
+    
+        var popup_ba7dc2ce68acf63c8b0278aca6c905bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9bbae8eb11e4347d5c49ff5bb207346 = $(`<div id="html_a9bbae8eb11e4347d5c49ff5bb207346" style="width: 100.0%; height: 100.0%;"><b>Виктория</b><br>Най-голямото езеро в Африка.</div>`)[0];
+            popup_ba7dc2ce68acf63c8b0278aca6c905bc.setContent(html_a9bbae8eb11e4347d5c49ff5bb207346);
+        
+
+        marker_ed46e7f0ab22d2302671393af7d6406a.bindPopup(popup_ba7dc2ce68acf63c8b0278aca6c905bc)
+        ;
+
+        
+    
+</script>
+</html>
